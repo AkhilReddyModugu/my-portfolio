@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
               icon={<FileDown size={20} />}
               onClick={() => window.open('/resume.pdf', '_blank')}
             >
-              Download Resume
+              View Resume
             </Button>
           </motion.div>
 

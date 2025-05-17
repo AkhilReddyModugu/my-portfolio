@@ -118,7 +118,7 @@ const Contact: React.FC = () => {
           subtitle="Let's connect and discuss opportunities" 
         />
         
-        <div ref={ref} className="max-w-5xl mx-auto mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div ref={ref} className="max-w-6xl mx-auto mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
